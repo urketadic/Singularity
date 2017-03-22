@@ -365,6 +365,21 @@ jQuery(document).ready(function(  ) {
 
 	// Modals 
 	// ======================
+
+	// Function we call to close the currently open modal
+  window.closeModal = $.magnificPopup.close
+
+  // If user navigates away from a modal (like pressing browser back button)
+  // we close the modal
+	$(window).bind('hashchange', function () {
+    // check if url contains 'gallery'
+    if (window.location.hash.indexOf('gallery') === -1 || location.hash == null) {
+			// url doesnt contains 'gallery', so we will close the gallery modal
+    	console.info('close modal')
+      $.magnificPopup.close()
+    }
+  });
+
 	$('.open-gallery-link').click(function() {
 		var itemNum = $(this).data("slideid");
 
@@ -394,7 +409,7 @@ jQuery(document).ready(function(  ) {
 	// bind click event to all internal page anchors
 	$("a[href*=#]").bind("click", function(e) {
 		// prevent default action and bubbling
-		e.preventDefault();
+		// e.preventDefault();
 		e.stopPropagation();
 		// set target to anchor's "href" attribute
 		var target = $(this).attr("href");
@@ -408,49 +423,30 @@ jQuery(document).ready(function(  ) {
 });
 
 
-  function cShowMe(WhatToShow)
-    {
-        if(WhatToShow == 1)  {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xaez3mVBVMc" ;
-         $(this).closest("iframe")
-        }
-        else if(WhatToShow ==2) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/IHy347sXBY8" ;
-        }
-        else if(WhatToShow ==3) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xtwwBsLuLzE" ;
-        }
-        else if(WhatToShow ==4) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/pH42OK7QNvw";
-        }
-        else if(WhatToShow ==5) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/_XoRkoHPht0" ;
-        }
-        else if(WhatToShow ==6) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/emjw5zspa94" ;
-        }
-        else if(WhatToShow ==7) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/X9dSuFlRhJc" ;
-        }
-        else if(WhatToShow ==8) {
-         document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/__DHLKlzFkg" ;
-        }
-    }
-    
-
-var State = History.getState()
-
-
-$(".portfolio-item-overlay").on('click', function(e) {
-	History.pushState(null, "State 1", "#helpwithprojects"); 
-	console.log(e.target);
-	History.forward();
-	History.log('initial:', State.data, State.title, State.url);
-});
-
-History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
-					// Log the State
-					var State = History.getState(); // Note: We are using History.getState() instead of event.state
-					History.log('statechange:', State.data, State.title, State.url);
-					alert("wd");
-				});
+function cShowMe(WhatToShow) {
+  if(WhatToShow == 1)  {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xaez3mVBVMc" ;
+   $(this).closest("iframe")
+  }
+  else if(WhatToShow ==2) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/IHy347sXBY8" ;
+  }
+  else if(WhatToShow ==3) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xtwwBsLuLzE" ;
+  }
+  else if(WhatToShow ==4) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/pH42OK7QNvw";
+  }
+  else if(WhatToShow ==5) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/_XoRkoHPht0" ;
+  }
+  else if(WhatToShow ==6) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/emjw5zspa94" ;
+  }
+  else if(WhatToShow ==7) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/X9dSuFlRhJc" ;
+  }
+  else if(WhatToShow ==8) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/__DHLKlzFkg" ;
+  }
+}
