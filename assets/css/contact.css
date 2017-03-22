@@ -1,0 +1,76 @@
+#contact {
+	background: gainsboro;
+	font-size: 14px;
+}
+
+li.list-group-item:hover {
+    cursor: default;
+}
+
+
+ul {
+	text-decoration: none;
+	list-style-type: disc;
+	text-align: justify;
+	max-width: 30em;
+}
+
+.order {
+	max-width: 30em;
+	display: block;
+	margin: 0px auto;
+}
+
+hr {
+	color: #747a6a;
+}
+.content ul {
+	text-align: left;
+	line-height: 1.3;
+}
+
+.color {
+	color: #cf381e !important;
+	font-weight: bold;
+}
+
+.content-area-container {
+	font-family:sans-serif;
+}
+
+.section-head h2 {
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-contact {
+        padding-bottom: 2em;
+    }
+    .section-head h2 {
+    	margin-top: 2em;
+    }
+}
+
+#swaf:hover {
+	color: red !important;
+}
+
+#val {
+	color: #cf381e;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+.rules {
+	margin-left: 3em;
+}
+
+
+@media screen and (max-width: 1198px) {
+   .rules {
+   	margin-left: 0;
+   }
+}
