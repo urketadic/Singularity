@@ -49,3 +49,7 @@ Temporary Items
 
 # project
 info.txt
+/node_modules
+
+# build
+/build
