@@ -1,6 +1,0 @@
-Host ovh
-    IdentityFile ~/.ssh/keys/ovh_key1
-    HostName 158.69.195.15
-    user root
-    Port 22487
-    #   Pass E8GUvjHW
