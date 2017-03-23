@@ -11879,11 +11879,6 @@ ul.rules {
   height: 100vh;
 }
 
-#ShowFrameID {
-  display: block;
-  margin: 0px auto;
-}
-
 .impression {
   margin-bottom: 0.5em;
   border: 2px solid gray;
@@ -11897,10 +11892,6 @@ ul.rules {
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1.1)
-}
-
-#documentary {
-  margin-top: 3em;
 }
 
 .btn-big-red {
@@ -12008,6 +11999,41 @@ figcaption {
   text-align: center;
   background: #f9f9f9;
 }
+
+
+/* Youtube lightweight embedding - adjusting the styles here */
+.youtube-player {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube-player.work-with-athene {
+  box-sizing: border-box;
+
+  width: 900px;
+  height: 500px;
+  margin-top: 3em;
+  padding: 0;
+}
+
+/* youtube iframe container */
+.featured-interview-container {
+  display: block;
+  margin: 0px auto;
+
+  width: 950px;
+  height: 552px;
+
+  max-width: 950px;
+  max-height: 552px;
+
+  overflow: hidden;
+}
+.featured-interview-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
 
 #heres:hover {
   color: #2ecc71!important;

@@ -24,7 +24,10 @@
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16"/>
     <link rel="manifest" href="assets/images/favicon/manifest.json"/>
     <link rel="shortcut icon" href="assets/images/favicon/favicon.ico"/>
+
     <link rel="stylesheet" href="assets/css/lightbox.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/embedding/youtube-lightweight.css" type="text/css" />
+
     <meta name="msapplication-TileColor" content="#da532c"/>
     <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png"/>
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml"/>
@@ -142,7 +145,10 @@
         <p>Watch this video before proceeding</p>
       </header>
       <div class="video-intro section section-short section-dark"><i data-os-animation="video-line" data-os-animation-delay="0s" class="os-animation"></i>
-      <iframe width="900" height="500" src="https://www.youtube.com/embed/XIfh8AGMui0" frameborder="0" allowfullscreen id="documentary"></iframe>
+
+      <div class="youtube-player work-with-athene" data-id="XIfh8AGMui0"></div>
+
+      <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/XIfh8AGMui0" frameborder="0" allowfullscreen id="documentary"></iframe> -->
       </div>
     </section>
     <section id="services" class="section section-dark text-center">
@@ -393,8 +399,12 @@
                 <div class="col-md-12 margin-top">
                   <div class="vertical-middle-desktop row">
                     <div class="col-md-6">
-                    <figcaption>One of the vlogs</figcaption>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JgT2-Ew3tTk" frameborder="0" allowfullscreen></iframe></div>
+                      <figcaption>One of the vlogs</figcaption>
+
+                      <div class="youtube-player" data-id="JgT2-Ew3tTk" width="560" height="315"></div>
+
+                      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JgT2-Ew3tTk" frameborder="0" allowfullscreen></iframe> -->
+                    </div>
                     <div class="col-md-6 content-block text-left">
                       <ul>
                       <h3>Practical stuff you can do:</h3>
@@ -486,10 +496,14 @@
         </header>
 
 
-        <iframe id="ShowFrameID" width="950" height="552" src="https://www.youtube.com/embed/xaez3mVBVMc">
-        </iframe>
-        <br>
+        <!-- cannot use the youtube-player lightweight embedding here, without rewriting the cShowMe js code -->
+        
+        <div class="featured-interview-container">
+          <iframe id="ShowFrameID" src="https://www.youtube.com/embed/xaez3mVBVMc">
+          </iframe>
+        </div>
 
+        <br>
 
       <a href="#" onclick="cShowMe(1); return false;">
           <img id="natgeo1" width="270" height="152"  src="assets/images/thumbnails/fedor.png" border="0" class="impression"/></a>
@@ -548,8 +562,11 @@
         </div>
         <div class="clear"></div>
       </div>
-    </footer><script src="assets/js/packages.min.js"></script>
+    </footer>
+
+    <script src="assets/js/packages.min.js"></script>
     <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/embedding/youtube-lightweight.js"></script>
     <script src="assets/js/contact.min.js"></script>
     <script src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
     <script src="assets/js/lightbox.min.js"></script>
