@@ -1,6 +1,4 @@
-# Singularity
-
-### Running locally
+## Running locally
 
 Start by cloning this repo and making sure you have node and npm installed
 
@@ -17,6 +15,5 @@ If you get npm errors, try globally installing the packages needed:
 **Deploy**
 ```npm run deploy```
 
-
-**Note about deploying:**  
+**Note:**  
 Ask Troy to add you as a collaborator to push to the site: http://sg.surge.sh
