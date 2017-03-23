@@ -1,4 +1,13 @@
 /* Put all new custom stuff in here, 
  * updating theme.css will have no effect (site is using minified theme css)
  */
- 
+ video.main-video 
+{
+	height: 100vh;
+}
+.slide::-webkit-scrollbar-thumb {
+	background: #E8E8E8;
+}
+.slide::-webkit-scrollbar-thumb:hover {
+    background: #E8E8E8;
+}
