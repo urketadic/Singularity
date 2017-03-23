@@ -1,3 +1,5 @@
+/* https://www.labnol.org/internet/light-youtube-embeds/27941/ */
+
 /* Light YouTube Embeds by @labnol */
 /* Web: http://labnol.org/?p=27941 */
 
