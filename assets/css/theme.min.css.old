@@ -580,7 +580,7 @@ ul.breadcrumb{z-index:9 !important;position:relative;}
 .background-slide-5{background-image:url("../images/slide-5.jpg");background-repeat:no-repeat;background-repeat:no-repeat;background-size:cover;background-position:center center;}
 .background-slide-6{background-image:url("../images/slide-6.jpg");background-repeat:no-repeat;background-repeat:no-repeat;background-size:cover;background-position:center center;}
 .background-slide-7{background-image:url("../images/slide-7.jpg");background-repeat:no-repeat;background-repeat:no-repeat;background-size:cover;background-position:center center;}
-.background-blog-single{background-image:url("../images/blog-single-image-1.jpg");background-repeat:no-repeat;background-size:cover;background-position:center center;}
+.background-blog-single{background-image:url("../images/blog-single-image-1-min.jpg");background-repeat:no-repeat;background-size:cover;background-position:center center;}
 .background-blog-single-2{background-image:url("../images/blog-single-image-2.jpg");background-repeat:no-repeat;background-size:cover;background-position:center center;}
 .background-blog-single-3{background-image:url("../images/blog-single-image-3.jpg");background-repeat:no-repeat;background-size:cover;background-position:center center;}
 .background-team-member-1{background-image:url("../images/team-member-single-1.jpg");background-repeat:no-repeat;background-size:cover;background-position:center center;}
