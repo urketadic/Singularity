@@ -7,8 +7,9 @@
     "postinstall": "npm start",
     "start": "budo --live --port 8000 --open",
     "build": "rimraf ./build && mkdir build && cp ./*.html build && cp -r assets build && cp -r jobpageassets build",
-    "deploy": "npm run build && surge ./build sg.surge.sh && rimraf ./build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "surge ./build https://sg.surge.sh && rimraf ./build",
+    "deploy": "npm run build && npm run publish",
+    "postdeploy": "rimraf ./build"
   },
   "repository": {
     "type": "git",
