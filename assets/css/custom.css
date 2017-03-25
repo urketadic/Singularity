@@ -11,3 +11,11 @@
 .slide::-webkit-scrollbar-thumb:hover {
     background: #E8E8E8;
 }
+
+.section-head h1 {
+	font-weight: bold;
+}
+
+.padder {
+	padding-bottom: 1em;
+}

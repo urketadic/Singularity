@@ -305,7 +305,7 @@ div.body-border.no-top {
   margin-bottom: 48px;
 }
 
-.section-head h2 {
+.section-head h1 {
   font-weight: 900;
   margin-bottom: 10px;
   margin-top: 5px;
@@ -2079,6 +2079,7 @@ h1.headings-caps, h2.headings-caps, h3.headings-caps, h4.headings-caps, h5.headi
 h1, .headline {
   font-size: 36px;
   line-height: 48px;
+  font-weight:bold;
 }
 
 h1 small {
