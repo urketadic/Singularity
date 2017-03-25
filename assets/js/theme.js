@@ -14,15 +14,6 @@ Main Theme JS file
 
 jQuery(document).ready(function(  ) {
 	$(".alert").hide();
-
-	lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-      'alwaysShowNavOnTouchDevices': true,
-      'fitImagesInViewport': true,
-      'showImageNumberLabel': false
-
-    })
 	
 	//Navigation Menu
 	//===================
