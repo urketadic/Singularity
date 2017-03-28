@@ -416,7 +416,7 @@ jQuery(document).ready(function(  ) {
 
 function cShowMe(WhatToShow) {
   if(WhatToShow == 1)  {
-   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xaez3mVBVMc" ;
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/iWEhY-76sIo" ;
    $(this).closest("iframe")
   }
   else if(WhatToShow ==2) {
@@ -439,5 +439,11 @@ function cShowMe(WhatToShow) {
   }
   else if(WhatToShow ==8) {
    document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/__DHLKlzFkg" ;
+  }
+  else if(WhatToShow ==9) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/xaez3mVBVMc" ;
+  }
+  else if(WhatToShow ==10) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/DqxdpP68b3k" ;
   }
 }
