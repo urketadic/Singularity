@@ -16,4 +16,4 @@ If you get npm errors, try globally installing the packages needed:
 ```npm run deploy```
 
 **Note:**  
-Ask Troy to add you as a collaborator to push to the site: http://sg.surge.sh
+Ask Troy to add you as a collaborator to push to the site: https://sg.surge.sh
