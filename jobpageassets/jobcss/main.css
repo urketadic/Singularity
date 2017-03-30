@@ -1,0 +1,208 @@
+/* Some basic stuff */
+
+p {
+  display:block;
+  margin: 0px auto;
+  width: 60%;
+  text-align:justify;
+  font-weight:600;
+}
+.col-md-8{
+  width:100%;
+  display:block;
+  margin: 0px auto;
+}
+
+#val {
+  text-align: center;
+  margin-top: 1em;
+}
+
+hr {
+  width: 34%;
+  margin-bottom: 4em;
+}
+
+#secondhr {
+  margin-top: 2%;
+}
+.footer-message {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  margin: 1.2em 0px;
+  font-weight: normal;
+}
+
+#currentprojects {
+  margin-top: 1.2em;
+}
+
+h2 {
+  font-size: 3.1em;
+}
+
+#btn-big-red {
+  margin-top: 3em; 
+}
+.btn-big-red {
+  background-color: #cf381e;
+  background-image: linear-gradient(167deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 55%), linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px #cf381e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #7F1400, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  display: inline-block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  height: 61px;
+  letter-spacing: -1px;
+  line-height: 61px;
+  margin: 30px 0 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none !important;
+  top: 0;
+  width: 186px;
+  -moz-transition: 0.15s;
+  -o-transition: 0.15s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  margin-top: 0px;
+}
+.btn-big-red:hover, .btn-big-red:focus {
+  background-color: #E45F47;
+  box-shadow: 0 0 0 1px #A7250D inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #A7250D, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+  top: -2px;
+}
+.btn-big-red:active {
+  box-shadow: 0 0 0 1px #2ecc71 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+/* Listings */
+
+.box    {  width:220px;
+           height:200px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:1.5% auto 0 auto;
+          margin-top: 0.5%;
+          border-radius:5px;
+          overflow:hidden;
+          display:inline-flex;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          background-size: 100% 100%;
+          cursor: default;
+        }
+
+#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+              width:100%;
+}
+
+.box:hover #overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               color:rgba(255,255,255,.85);
+               font-size:2rem;
+               text-align:center;
+               vertical-align: middle;
+             }
+
+/* Adding pictures */
+div#videoeditor.box {
+background-image:url("../jobpictures/Video-editor.png");
+background-size:cover;
+}
+#cameraoperator {
+background-image:url("../jobpictures/camera-operator.png");
+}
+#contentwriter {
+background-image:url("../jobpictures/content-writer.png");
+}
+#communitymanager {
+background-image:url("../jobpictures/community-manager.png");
+}
+#graphicdesigner {
+background-image:url("../jobpictures/graphic-designer.png");
+}
+#marketingmanager {
+background-image:url("../jobpictures/Marketing-manager.png");
+}
+#budgetanalyst {
+background-image:url("../jobpictures/budget-analyst.png");
+}
+#contentproducer {
+background-image:url("../jobpictures/content-producer.png");
+}
+#translator {
+background-image:url("../jobpictures/translator.png");
+}
+#headofcuisine {
+background-image:url("../jobpictures/head-of-cuisine.png");
+}
+#kitchenchef {
+background-image:url("../jobpictures/kitchen-chef.png");
+}
+#uidesigner {
+background-image:url("../jobpictures/user-interface-designer.png");
+}
+#app {
+background-image:url("../jobpictures/30-day-app.png");
+}
+#documentary {
+background-image:url("../jobpictures/documentary.png");
+}
+#g4gnda {
+background-image:url("../jobpictures/g4g-project.png");
+}
+#vrgame {
+background-image:url("../jobpictures/VR-game.png");
+}
+#interviews {
+background-image:url("../jobpictures/interviews.png");
+}
+#newbook {
+background-image:url("../jobpictures/new-book.png");
+}
+#pokerteam {
+background-image:url("../jobpictures/poker-team.png");
+}
+#stocktradingteam {
+background-image:url("../jobpictures/stock-trading-team.png");
+}
+#streamersandyoutubers {
+background-image:url("../jobpictures/streamers-and-youtubers.png");
+}
+#projectnx {
+background-image:url("../jobpictures/projectNX-website.png");
+}
+#logicnationrevamp {
+background-image:url("../jobpictures/logicnation-revamp.png");
+}
+#podcasts {
+background-image:url("../jobpictures/podcasts.png");
+}
+#assistantsocialmedia {
+background-image:url("../jobpictures/assistant-social-media-manager.png");
+}
+#optimizinginterior {
+background-image:url("../jobpictures/optimizing-interior.png");
+}
+
+.resize {
+  width: 80%;
+  display:block;
+  margin: 0px auto;
+}
