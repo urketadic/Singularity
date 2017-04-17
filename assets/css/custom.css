@@ -187,6 +187,7 @@ overflow:hidden;
 
     .colored {
       color: #cf381e;
+      font-weight:bold;
     }
 
 #newarrivals {
@@ -217,3 +218,58 @@ h1 {
 .section-head {
     margin-bottom: 25px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+hr { 
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  width: 40%;
+  margin-top: 0.1em; 
+}
+
+.go-top i {
+  color: #cf381e !important;
+}
+
+.cbp-spmenu {
+  border-right: 10px solid #cf381e;
+}
+
+a.close-menu {
+  background-color: #cf381e !important;
+}
+
+.cbp-spmenu ul li > a:hover {
+  color: #cf381e !important;
+}
+
+.btn-big-red {
+background-color: #cf381e;
+background-image: linear-gradient(167deg, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 55%), linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
+border-radius: 6px;
+box-shadow: 0 0 0 1px #cf381e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #7F1400, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-big-red:hover, .btn-big-red:focus {
+    background-color: #E45F47;
+    box-shadow: 0 0 0 1px #A7250D inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #A7250D, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+    top: -2px;
+}
+    section#about {
+      padding-bottom: 2em !important;
+    }
+
+    section#video-intro {
+      padding-top: 2em;
+    }
+    #video-intro {
+      background: #f9f9f9 !important;
+      color: black !important;
+    }
+    #thisone {
+      margin-bottom: 0px;
+    }
