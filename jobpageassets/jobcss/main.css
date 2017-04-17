@@ -115,7 +115,7 @@ h2 {
 
 #plus       {  font-family:Helvetica;
                color:rgba(255,255,255,.85);
-               font-size:2rem;
+               font-size:1.5rem;
                text-align:center;
                vertical-align: middle;
              }
@@ -178,6 +178,7 @@ background-image:url("../jobpictures/new-book.png");
 }
 #pokerteam {
 background-image:url("../jobpictures/poker-team.png");
+font-size:1.5rem;
 }
 #stocktradingteam {
 background-image:url("../jobpictures/stock-trading-team.png");

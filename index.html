@@ -36,7 +36,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <!-- MAIN STYLESHEETS-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all"/>
-    <link rel="stylesheet" href="assets/css/theme.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/theme.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="all"/>
   </head>
   <body data-spy="scroll" data-target="#scroll-nav" data-offset="10">
@@ -90,9 +90,9 @@
 
       <!-- https://i.vimeocdn.com/video/622464164_640x340.jpg - change 640x340 and visit the url to download a new poster image -->
       <video class="main-video" poster="https://s3.eu-central-1.amazonaws.com/sgnx/singularity+group+website/images/main-video_poster_640x340.jpg" loop autoplay muted>
-        <source src="https://s3.eu-central-1.amazonaws.com/sgnx/singularity+group+website/video/workplace_footage.webm" type="video/webm" />
-        <source src="https://s3.eu-central-1.amazonaws.com/sgnx/singularity+group+website/video/workplace_footage.ogv" type="video/ogg" />
-        <source src="https://s3.eu-central-1.amazonaws.com/sgnx/singularity+group+website/video/workplace_footage.mp4" type="video/mp4" />
+        <source src="stock.webm" type="video/webm" />
+        <source src="stock.ogv" type="video/ogg" />
+        <source src="stock.mp4" type="video/mp4" />
         <source src="https://drive.google.com/uc?export=download&amp;id=0B4wV82sxTGcKMGxPX1lzVkxZeHc" type="video/mp4" />
       </video>
 
@@ -483,7 +483,7 @@
           </div>
         </div>
       </div>
-      <p><a href="jobpage.html" id="heres">Click me</a> for a single paged overview of projects and jobs.</p>
+      <p><a href="projects.html" id="heres">Click me</a> for a single paged overview of projects and jobs.</p>
     </section>
     
 
@@ -498,32 +498,17 @@
         <!-- cannot use the youtube-player lightweight embedding here, without rewriting the cShowMe js code -->
         
         <div class="featured-interview-container">
-          <iframe id="ShowFrameID" src="https://www.youtube.com/embed/xaez3mVBVMc">
+          <iframe id="ShowFrameID" src="https://www.youtube.com/embed/RCz4N0u1ayA">
           </iframe>
         </div>
 
         <br>
 
-      <a href="#" onclick="cShowMe(1); return false;">
-          <img id="natgeo1" width="270" height="152"  src="assets/images/thumbnails/ni.jpg" border="0" class="impression" alt="thumbnail"/></a>
-
       <a href="#" onclick="cShowMe(2); return false;">
     <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/nolenbrolenebolen.jpg" class="impression" alt="thumbnail"/></a>
     
-    <a href="#" onclick="cShowMe(3); return false;">
-    <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/miroslav.jpg" class="impression" alt="thumbnail" /></a>
-    
-    <a href="#" onclick="cShowMe(4); return false;">
-    <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/felix.jpg" class="impression" alt="thumbnail" /></a>
-    
-    <a href="#" onclick="cShowMe(5); return false;">
-    <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/yannic.jpg" class="impression" alt="thumbnail"/></a>
-    
     <a href="#" onclick="cShowMe(6); return false;">
     <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/vera.jpg" class="impression" alt="thumbnail"/></a>
-    
-    <a href="#" onclick="cShowMe(7); return false;">
-    <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/alex.jpg" class="impression" alt="thumbnail"/></a>
     <a href="#" onclick="cShowMe(8); return false;">
     <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/martin.jpg" class="impression" alt="thumbnail"/></a>
 
@@ -532,7 +517,47 @@
       <a href="#" onclick="cShowMe(10); return false;">
     <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/jan.jpg" class="impression" alt="thumbnail"/></a>
 
+    <a href="#" onclick="cShowMe(11); return false;">
+    <img id="natgeo2" width="270" height="152" src="assets/images/thumbnails/stass.jpg" class="impression" alt="thumbnail"/></a>
+
       </div>
+
+      <br>
+
+      <h3>
+		New Arrivals
+	 </h3>
+	<div class="bstimeslider">
+	    <div id="rightArrow"> <img src="https://cdn4.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_next.png" alt="rightarrow"/> </div>
+	    <div id="viewContainer">
+	        <div id="tslshow">
+	            <div class="bktibx"><figcaption><span>Miroslav</span><br>10.03.17</figcaption><img src="assets/images/team/miroslav.png" onclick="cShowMe(3); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Yannic</span><br>12.03.17</figcaption><img src="assets/images/team/jan2.png" onclick="cShowMe(5); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Alex</span><br>12.03.17</figcaption><img src="assets/images/team/alex.png" onclick="cShowMe(7); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Tomas</span><br>12.03.17</figcaption><img src="assets/images/team/thomas.png"></div>
+	            <div class="bktibx"><figcaption><span>Troy</span><br>14.03.17</figcaption><img src="assets/images/team/troy.png"></div>
+	            <div class="bktibx"><figcaption><span>Igor</span><br>14.03.17</figcaption><img src="assets/images/team/igor.png" onclick="cShowMe(14); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Felix</span><br>14.03.17</figcaption><img src="assets/images/team/felix.png" onclick="cShowMe(4); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Lenny</span><br>15.03.17</figcaption><img src="assets/images/team/lenny.png"></div>
+	            <div class="bktibx"><figcaption><span>Jon</span><br>16.03.17</figcaption><img src="assets/images/team/jon.png" onclick="cShowMe(13); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Nhi</span><br>21.03.17</figcaption><img src="assets/images/team/nhi.png" onclick="cShowMe(1); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Vytas</span><br>21.03.17</figcaption><img src="assets/images/team/vitas.png" onclick="cShowMe(12); return false;"></div>
+	            <div class="bktibx"><figcaption><span>Adan</span><br>30.03.17</figcaption><img src="assets/images/team/itechno.png"></div>
+	            <div class="bktibx"><figcaption><span>Simone</span><br>03.04.17</figcaption><img src="assets/images/team/simmone.png"></div>
+	            <div class="bktibx"><figcaption><span>Marek</span><br>04.04.17</figcaption><img src="assets/images/team/marek.png"></div>
+	            <div class="bktibx"><figcaption><span>Daniel</span><br>10.04.17</figcaption><img src="assets/images/team/daniel.png"></div>
+	            <div class="bktibx"><figcaption><span>Joe</span><br>11.04.17</figcaption><img src="assets/images/team/joe.png"></div>
+	            <div class="bktibx"><figcaption><span>Owen</span><br>11.04.17</figcaption><img src="assets/images/team/owen.png"></div>
+	            <div class="bktibx"><figcaption><span>Daniel</span><br>11.04.17</figcaption><img src="assets/images/team/barker.png"></div>
+	            <div class="bktibx"><figcaption><span>Ishmael</span><br>12.04.17</figcaption><img src="assets/images/team/ishmael.png"></div>
+	            <div class="bktibx"><figcaption><span>Thomas</span><br>12.04.17</figcaption><img src="assets/images/team/thomasteis.png"></div>
+	            <div class="bktibx"><figcaption><span>Thomas</span><br>16.04.17</figcaption><img src="assets/images/team/collart.png"></div>
+	            <div class="bktibx"><figcaption><span>Emil</span><br>16.04.17</figcaption><img src="assets/images/team/emil.png"></div>
+	         </div>
+	    </div>
+	    <div id="leftArrow"> <img src="https://cdn4.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_prev.png" alt="leftarrow"/></div>
+		</div>
+
     </section>
 
     <section id="contact" class="section section-lighter text-center">
@@ -570,7 +595,7 @@
   </div>
 
   <script src="assets/js/packages.min.js"></script>
-  <script src="assets/js/theme.min.js"></script>
+  <script src="assets/js/theme.js"></script>
   <script src="assets/js/embedding/youtube-lightweight.min.js"></script>
   <script src="assets/js/contact.min.js"></script>
   <script>

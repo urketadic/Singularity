@@ -413,6 +413,7 @@ jQuery(document).ready(function(  ) {
 	});
 });
 
+var videoholder = document.getElementById("ShowFrameID");
 
 function cShowMe(WhatToShow) {
   if(WhatToShow == 1)  {
@@ -446,4 +447,33 @@ function cShowMe(WhatToShow) {
   else if(WhatToShow ==10) {
    document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/DqxdpP68b3k" ;
   }
+  else if(WhatToShow ==11) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/RCz4N0u1ayA" ;
+  }
+  else if(WhatToShow ==12) {
+   document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/DNjGiVan_3c" ;
+  }
+  else if(WhatToShow ==13) {
+  	document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/gSitKpY89yk" ;
+  }
+  else if(WhatToShow ==14) {
+  	document.getElementById("ShowFrameID").src = "https://www.youtube.com/embed/G8biVFDbE4I" ;
+  }
+  videoholder.scrollIntoView();
 }
+
+
+
+var view = $("#tslshow");
+var move = "100px";
+var sliderLimit = -1750;
+
+$("#rightArrow").click(function(){
+    var currentPosition = parseInt(view.css("left"));
+    if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 0})
+});
+
+$("#leftArrow").click(function(){
+    var currentPosition = parseInt(view.css("left"));
+    if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 0})
+});

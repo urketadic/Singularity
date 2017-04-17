@@ -12053,17 +12053,27 @@ video.main-video {
   display: block;
   margin: 0px auto;
 
-  width: 950px;
+  width: 100%;
   height: 552px;
 
   max-width: 950px;
   max-height: 552px;
 
-  overflow: hidden;
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	width: 100% !important;
+	overflow:hidden;
 }
 .featured-interview-container iframe {
   width: 100%;
   height: 100%;
+  position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 
