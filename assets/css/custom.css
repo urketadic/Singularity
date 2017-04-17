@@ -42,7 +42,7 @@ display: block;
 margin: 10px auto;
 width:700px;
 height:100px;
-background:#f9f9f9;
+background-color: #131313;
 position:relative;    
 }
 
@@ -109,7 +109,7 @@ width:3000px;
 cursor: pointer;
 width:16px;
 height:16px;
-background:#f9f9f9; 
+background: #131313; 
 position:absolute;
 left:0px;
 top: 50%;
@@ -120,7 +120,7 @@ transform: translateY(-50%);
 cursor: pointer;
 width:16px;
 height:16px;
-background:#f9f9f9; 
+background: #131313; 
 position:absolute;
 right:0px;
 top: 50%;
@@ -130,7 +130,7 @@ transform: translateY(-50%);
 #viewContainer {
 width:630px;
 height:100%;
-background:#f9f9f9;
+background-color: #131313;
 position:absolute;
 left:30%;
 margin-left:-180px;
@@ -166,4 +166,54 @@ overflow:hidden;
     	width: 200px;
     	margin-left: -50px;
     }
+}
+
+
+#services {
+  background: #131313;
+  color: white !important;
+}
+
+#services .icon-block.icon-block-dark {
+    color: white; 
+    }
+
+    .ion-android-done {
+      color: #2ecc71;
+    }
+    .ion-android-done:hover {
+      color:white !important;
+    }
+
+    .colored {
+      color: #cf381e;
+    }
+
+#newarrivals {
+  text-align: center;
+  background: #131313;
+  color: white;
+  padding: 2em;
+  margin-top: 0;
+}
+#newarrivalstext {
+  color:white;
+  line-height: 45px;
+}
+
+section#team{
+  padding-bottom:0;
+  padding-top: 6em;
+}
+
+section#works {
+  padding-top: 6em;
+}
+
+h1 {
+  line-height: 15px;
+}
+
+.section-head {
+    margin-bottom: 25px;
 }
